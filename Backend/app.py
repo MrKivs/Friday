@@ -55,7 +55,7 @@ class WeatherChatBot:
 
         if re.search(r'\b(hi|hello|hey|morning|afternoon|evening|greetings|greeting|good morning|good afternoon|good evening|good day)\b', user_input):
             return "Hello! I'm your weather assistant. Ask about the weather or forecast!"
-        
+   
         if re.search(r'\b(how are you|how are you doing|how are you doing today|how are you today|what is your name|who are you)\b', user_input):
             return "Hello! I'm your weather assistant Friday. Here to provide you with weather support!"
 
